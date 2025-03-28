@@ -1,0 +1,85 @@
+* {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#navegation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:antiquewhite;
+    padding: 1em;
+
+    width: 100vw;
+    height: 4em;
+}
+#navTitle {
+    color: rgb(0, 114, 114);
+
+}
+#navegationChanges {
+    display: flex;
+    align-items: center;
+    padding: 0 0.5em;
+    font-weight: 600;
+}
+#nChangeSeparator {
+    margin: 0 1em;
+}
+#nChange-1 {
+    text-decoration: none;
+    color: black;
+}
+#nChange-2 {
+    text-decoration: none;
+    color: black
+}
+#nChange-1:hover {
+    color: rgb(0, 114, 114);
+}
+#nChange-2:hover {
+    color: rgb(0, 114, 114);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+#allContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#allContentSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#backgroundColorLabel {
+    font-size: 22pt;
+    background-color: rgba(80, 80, 80, 0.5);
+    padding: 0.5em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+#changeColorBtn {
+    width: 8em;
+    height: 3em;
+    border-radius: 5px;
+    border: 0.2em solid black;
+}
+#changeColorBtn:hover {
+    background-color: rgba(80, 80, 80, 0.3);
+}
+#changeColorBtn:active {
+    width: 7.5em;
+    height: 2.5em;
+}
+.color {
+    color: rgb(0, 114, 114);
+}
